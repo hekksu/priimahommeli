@@ -97,3 +97,138 @@ div5 {
 
 
 
+
+
+
+
+
+
+
+
+-------------------------- edit: 20.12
+
+<head>
+<meta name="viewport" content="width=device-width">
+<style>
+img {
+    max-width: 100%;
+}
+</style>
+
+<div> <img src="https://www.primapower.com/wp-content/uploads/2018/10/Prima-Power-BCe-Smart-400x300.png">
+<br>  <div2>  BCe Smart <br>  Uptime: 14:23:21 </br> </div2> </br>
+   <img src="https://i.imgur.com/ByAHcUh.png"> -------------- <style> float: center;</style> <img src="https://i.imgur.com/D3TwR2G.png"> -------------- <img src="https://i.imgur.com/lbP0Q3u.png">
+</div>
+
+<div> <img src="https://www.primapower.com/wp-content/uploads/2018/10/Prima-Power-EBe-400x300.png">
+<br>  <div3>  EBe <br>  Downtime: 0:14:31 </br> </div3> </br>
+   <img src="https://i.imgur.com/ByAHcUh.png"> -------------- <style> float: center;</style> <img src="https://i.imgur.com/D3TwR2G.png"> -------------- <img src="https://i.imgur.com/lbP0Q3u.png">
+</div>
+
+
+<div> <img src="https://www.primapower.com/wp-content/uploads/2018/10/Prima-Power-FBe-400x300.png">
+<br>  <div4>  FBe <br>  Downtime: 0:23:19 </br> </div4> </br>
+   <img src="https://i.imgur.com/ByAHcUh.png"> -------------- <style> float: center;</style> <img src="https://i.imgur.com/D3TwR2G.png"> -------------- <img src="https://i.imgur.com/lbP0Q3u.png">
+</div>
+
+
+<div> <img src="https://www.primapower.com/wp-content/uploads/2018/10/Prima-Power-BCe-400x300.png">
+<br>  <div5>  BCe <br>  Downtime: 48:31:11 </br> </div5> </br>
+   <img src="https://i.imgur.com/ByAHcUh.png"> -------------- <style> float: center;</style> <img src="https://i.imgur.com/D3TwR2G.png"> -------------- <img src="https://i.imgur.com/lbP0Q3u.png">
+</div>
+
+
+<div6>
+<p>
+<img src="https://i.imgur.com/Q7fgdcc.png">  Laite EBe IDLE-tilassa 
+<br>Ilmoita IDLE-tilan syylomakkeeseen </br> </p>
+<br> --INSERT LOMAKE-- </br>
+</div6>
+
+
+<div>
+<img src="https://i.imgur.com/P2y3pnV.png">
+Kuukausittainen kiinniolokiintiö
+<br> --INSERT KIINNIOLOKIINTIÖ-- </br>
+</di>
+
+</head>
+
+
+
+
+
+
+
+CSS:
+
+
+
+
+
+
+div {
+  background-color: lightgrey;
+  width: 400px;
+  border: 25px lightgrey;
+  padding: 25px;
+  font-size: 20px;
+  margin: 25px;
+ 
+}
+
+div2 {
+    display: inline-block; 
+    width:400px; 
+    border:1px solid; 
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:top
+    
+}
+
+
+div3 {
+    display: inline-block; 
+    width:400px; 
+    border:1px solid; 
+    background-color: yellow;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:top
+    
+}
+
+
+div4 {
+    display: inline-block; 
+    width:400px; 
+    border:1px solid; 
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:top
+    
+}
+
+div5 {
+    display: inline-block; 
+    width:400px; 
+    border:1px solid; 
+    background-color: grey;
+    font-size: 30px;
+    text-align: center;
+    vertical-align:top
+    
+}
+
+
+div6 {
+  background-color: lightgrey;
+  width: 400px;
+  border: 25px lightgrey;
+  float: left;
+  padding: 25px;
+  font-size: 20px;
+  margin: 25px;
